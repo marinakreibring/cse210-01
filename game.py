@@ -1,6 +1,9 @@
 """This is a tic-tac-toe game
 coded my Marina Kreibring for
-cse210-20 fall 2022 BYU-I
+cse 210-20 fall 2022 BYU-I.
+Program has main() and 3 other functions,
+if blocks and while loop,
+user's input validation.
 """
 print("Welcome to the Tic-Tac-Toe!")
 # set the board for 9 cells
@@ -72,7 +75,7 @@ def main(board):
                 break
         # if a draw
         if counter==9:
-            print("It's a draw!")
+            print("It's a draw! Good game, thank you for playing!")
             break
     draw_board(board)
 main(board)
